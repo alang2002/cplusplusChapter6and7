@@ -17,6 +17,7 @@ int main() {
 	do {
 		srand(time(NULL));
 		compNum = rand() % 10 + 1;
+
 		cout << "Think of number between 1 and 10, da?" << endl;
 		this_thread::sleep_for(chrono::seconds(2));
 		cout << "T h i n k i n g . . . " << endl;
